@@ -18,7 +18,7 @@ jobs:
       - name: install packages
         run: npm ci
       - name: Run all test
-        run: npm build
+        run: npm run build
   test:
     runs-on: ubuntu-latest
     steps:
